@@ -22,11 +22,16 @@ This command cleans the sbt project by deleting the target directory. The comman
 ````
 sbt clean
 ````
-###compile This command compiles the scala source classes of the sbt project.
+
+###compile 
+
+This command compiles the scala source classes of the sbt project.
 ````
 sbt compile
 ````
-###Run Enter the project folder and type project module name along with the sbt run command:
+###run 
+
+Enter the project folder and type project module name along with the sbt run command:
 ````
 sbt "project crud" run
 ````
